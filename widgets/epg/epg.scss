@@ -1,0 +1,62 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #12b0c5;
+$title-color:       #fff;
+
+$label-color:       #fff;
+$value-color:       rgba(255, 255, 255, 0.7);
+
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-epg styles
+// ----------------------------------------------------------------------------
+.widget-epg {
+
+  background-color: $background-color;
+  vertical-align: top;
+  font-size: 16px;
+
+  .title {
+    color: $title-color;
+  }
+
+  ol, ul {
+    margin: 0 15px;
+    text-align: left;
+    color: $label-color;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .showtitle {
+    color: $label-color;
+    font-weight: 600;
+  }
+
+  .description {
+    float: right;
+    margin-left: 12px;
+    color: $value-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+}
